@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>NoRush</title>
+
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBc5Ed7b_4P_ttPjvNpmssbns6OUV1gXsY",
+			authDomain: "trip-planner-eaabd.firebaseapp.com",
+			databaseURL: "https://trip-planner-eaabd.firebaseio.com",
+			projectId: "trip-planner-eaabd",
+			storageBucket: "trip-planner-eaabd.appspot.com",
+			messagingSenderId: "227348429822"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Wrapper-->
+	<div id="wrapper">
+
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#me" class="icon fa-home active"><span>Home</span></a>
+			<a href="#work" class="icon fa-users"><span>Who We Are</span></a>
+			<a href="#whatwedo" class="icon fa-bullseye"><span>What We Do</span></a>
+			<a href="#getstarted" class="icon fa-arrow-right"><span>Get Started</span></a>
+			<a href="#signup" class="icon fa-pencil"><span>Sign Up</span></a>
+			<a href="#contact" class="icon fa-envelope"><span>Contact Us</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Me -->
+			<article id="me" class="panel">
+				<header>
+					<h1>Welcome to NoRush.</h1>
+					<p id="typetest">For all your schedule planning needs.</p>
+				</header>
+				<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+			</article>
+
+			<!-- Work -->
+			<article id="work" class="panel">
+				<header>
+					<h2>We are a small startup.</h2>
+				</header>
+				<p>
+					Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia luctus elit eget interdum.
+				</p>
+				<section>
+					<!--<div class="row">-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u$ 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u$ 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u$ 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--	<div class="4u$ 12u$(mobile)">-->
+					<!--		<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>-->
+					<!--	</div>-->
+					<!--</div>-->
+				</section>
+			</article>
+
+			<!--What We Do-->
+			<article id="whatwedo" class="panel">
+				<header>
+					<h2>What We Do</h2>
+				</header>
+				<p>
+					We focus on you. It's all about how quickly you get things done. All that time saved goes to doing things that matter.
+				</p>
+			</article>
+
+			<!--Get Started-->
+			<article id="getstarted" class="panel">
+				<section>
+					<header>
+						<h2>Log In</h2>
+					</header>
+					<form>
+						<div>
+							<div class="row">
+								<div class="12u 12u$(mobile)">
+									<input type="text" name="log-in-username" placeholder="Username" />
+								</div>
+								<br>
+								<div class="12u$ 12u$(mobile)">
+									<input type="text" name="log-in-password" placeholder="Password" />
+								</div>
+								<h3 class="12u$"></h3>
+								<div class="12u$">
+									<input type="submit" value="Log In" />
+								</div>
+
+								<a href="#signup" class="jumplink"><span>Sign Up</span></a>
+
+					</form>
+				</section>
+			</article>
+
+			<!--Sign Up-->
+			<article id="signup" class="panel">
+				<section>
+					<header>
+						<h2>Sign Up</h2>
+					</header>
+					<button>Sign Up With Google</button>
+					<br>
+					<p>or sign up with email:</p>
+					<form>
+						<div>
+							<div class="row">
+								<h3 class="12u$">Name</h3>
+								<div class="6u 12u$(mobile)">
+									<input type="text" name="sign-up-first-name" placeholder="First Name" />
+								</div>
+								<div class="6u$ 12u$(mobile)">
+									<input type="text" name="sign-up-last-name" placeholder="Last Name" />
+								</div>
+								<h3 class="12u$"></h3>
+								<h3 class="12u$">Date of Birth</h3>
+								<div class="3u">
+									<input type="text" name="sign-up-dob-m" placeholder="(mm)" />
+								</div>
+								<div class="3u">
+									<input type="text" name="sign-up-dob-d" placeholder="(dd)" />
+								</div>
+								<div class="3u$">
+									<input type="text" name="sign-up-dob-y" placeholder="(yy)" />
+								</div>
+								<h3 class="12u$"></h3>
+								<h3 class="12u$">Contact Information</h3>
+								<div class="6u 12u$(mobile)">
+									<input type="text" name="sign-up-email" placeholder="Email" />
+								</div>
+								<div class="6u$ 12u$(mobile)">
+									<input type="text" name="sign-up-phone" placeholder="Phone Number" />
+								</div>
+								<h3 class="12u$"></h3>
+								<h3 class="12u$">Password</h3>
+								`
+								<div class="12u$">
+									<input type="text" name="sign-up-password" placeholder="Password" />
+								</div>
+								<div class="12u$">
+									<input type="text" name="sign-up-confirm-password" placeholder="Confirm Password" />
+								</div>
+								<h3 class="12u$"></h3>
+								<div class="12u$">
+									<input type="submit" value="Sign Up" />
+								</div>
+							</div>
+						</div>
+					</form>
+				</section>
+			</article>
+
+			<!-- Contact -->
+			<article id="contact" class="panel">
+				<header>
+					<h2>Contact Us</h2>
+				</header>
+				<form>
+					<div>
+						<div class="row">
+							<div class="6u 12u$(mobile)">
+								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="6u$ 12u$(mobile)">
+								<input type="text" name="email" placeholder="Email" />
+							</div>
+							<div class="12u$">
+								<input type="text" name="subject" placeholder="Subject" />
+							</div>
+							<div class="12u$">
+								<textarea name="message" placeholder="Message" rows="8"></textarea>
+							</div>
+							<div class="12u$">
+								<input type="submit" value="Send Message" />
+							</div>
+						</div>
+					</div>
+				</form>
+			</article>
+
+			<!-- Footer -->
+			<div id="footer">
+				<ul class="copyright">
+					<li>&copy; Untitled.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

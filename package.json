@@ -1,0 +1,19 @@
+{
+  "name": "trip-planner",
+  "version": "1.0.0",
+  "description": "Infinite What does the product do? You input a list of what you need to do today It tells you the best time and place to do these things If you're buying things, it tells you the places with the best prices It plans a route for you to do these things Prioritize specific items (ask user) Why it's the best place Example reviews Can be for tourists https://www.trivago.com/ Price comparison",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "firebase-admin": "^5.1.0",
+    "morgan": "^1.8.2"
+  }
+}
