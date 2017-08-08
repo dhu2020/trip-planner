@@ -1,0 +1,11 @@
+When the user enters the website, they can browse to find out more about us.
+Once they choose to make an account, they are able to login. This is allowed through firebase.
+After login, they are taken to an interface where they can enter their schedule and see a map
+
+Coding languages
+I used node.js to build the back-end of the app. The website itself was built with a template that used css, html, and javascript.
+
+backend
+frontend
+
+I can go through website

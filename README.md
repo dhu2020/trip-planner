@@ -47,3 +47,5 @@ Better Shopping API
 
 What does the app look like at selection stage
 
+Talk about how app function
+
