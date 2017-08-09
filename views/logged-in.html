@@ -39,6 +39,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/logged-in.css">
 </head>
 
@@ -47,22 +48,66 @@
     <!-- Wrapper-->
     <div id="wrapper">
         <nav id="nav">
-            <a href="#schedule" class="icon fa-home active"><span>Home</span></a>
-            <a href="#map" class="icon fa-globe"><span>Who We Are</span></a>
+            <a href="#newsched" class="icon fa-calendar-plus-o active"><span>New Sched.</span></a>
+            <a href="#schedule" class="icon fa-th-list"><span>Sched.</span></a>
+            <a href="#map" class="icon fa-globe"><span>You Are Here</span></a>
         </nav>
-
         <!-- Main -->
         <div id="main">
+            <!--New Schedule-->
+            <article id="newsched" class="panel">
+                <header>
+                    <h1>Create a New Schedule</h1>
+                </header>
+                <div class="row">
+                    <h2>Name Your Schedule</h2>
+                    <div class="12u$">
+                        <input type="text" placeholder="Schedule Name" />
+                    </div>
+                    <h3 class="12u$"></h3>
+                    <h2>Things To Do</h2>
+                    <div class="12u$">
+                        <a class='dropdown-button btn 2u' href='#' data-activates='dropdown1'>Exercise</a>
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a href="#!" class="icon ">Swim</a></li>
+                            <li><a href="#!" class="icon ">Run</a></li>
+                            <li><a href="#!" class="icon fa-bicycle">Bike</a></li>
+                        </ul>
 
-            <!-- Me -->
+                        <a class='dropdown-button btn 2u' href='#' data-activates='dropdown1'>Food</a>
+                        <ul id='dropdown1' class='dropdown-content'>
+                            <li><a href="#!">Groceries</a></li>
+                            <li><a href="#!">Restaurants</a></li>
+                            <li><a href="#!">Drinks</a></li>
+                        </ul>
+                        <h3 class="12u$"></h3>
+                        <h2>Search Radius</h2>
+                        <div class="12u$">
+                            <input type="text" placeholder="Search Radius" />
+                        </div>
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Current Schedule -->
             <article id="schedule" class="panel">
                 <header>
                     <h1>Your Schedule</h1>
+                    <p>8:00AM: Arepas Cafe</p>
+                    <p>10:00AM: YMCA Pool</p>
+                    <p>11:30AM: Central Park</p>
+                    <p>12:00PM: Stop and Shop</p>
                 </header>
             </article>
 
+            <!--Map-->
             <article id="map" class="panel">
                 <div id="map"></div>
+                <script src="js/maps.js"></script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLQIodcgTugwJLXcfbhnD62a3JiL7sWkA&callback=initMap">
+                </script>
+                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLQIodcgTugwJLXcfbhnD62a3JiL7sWkA&libraries=places"></script>
             </article>
         </div>
         <!-- Footer -->

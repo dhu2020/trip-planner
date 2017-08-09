@@ -3,9 +3,39 @@ Once they choose to make an account, they are able to login. This is allowed thr
 After login, they are taken to an interface where they can enter their schedule and see a map
 
 Coding languages
-I used node.js to build the back-end of the app. The website itself was built with a template that used css, html, and javascript.
 
-backend
-frontend
+
+Good morning. My name is Daniel.
+I am a technical consultant at NoRush, and I began to build out the application.
+
+NoRush is a web app whose back end is built using node-express.
+Its front end is built with html, css, and javascript.
+
+In order to build a web app that was as visually appealing as possible, I used an HTML template
+and built from there.
+
+The app allows users to select what they would like to do for the day. 
+
+The app then finds the best locations and best times of day to visit places, exercise, or run errands.
+
+Users can emphasize what they need from a schedule. For example, they can choose places
+that are relatively close with the lowest prices or locations
+that are very close but with slightly higher prices.
+
+Once the app has the best locations and the best times to visit those locations, it puts them together into a schedule.
+The user can then tweak the schedule as needed and print or save it.
+
+The app is currently, for the most part, front-end.
+Once it is built out more, it will have apis such as google places
+and yelp to allow it to gather the information it needs.
+
+Later, firebase will be used to allow users to log in, make schedules for the future, and save
+current schedules for later access.
+
+
+
+heroku
+
+geolocation
 
 I can go through website
